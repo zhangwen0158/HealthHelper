@@ -1,0 +1,43 @@
+/* page/add/index.wxss */
+@import "../common/index.wxss";
+.name-block {
+  position: relative;
+  width: 100%;
+  border-top-width: 5px;
+  background: #d43030;
+  height: 100px;
+}
+.input-name {
+  position: absolute;
+  height: 50px;
+  width: 65%;
+  top: 5px;
+  left: 5px;
+  background: #5330d4;
+}
+.input-image {
+  position: absolute;
+  height: auto;
+  width: 95px;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  background: gray;
+}
+
+.tag-list {
+  position: absolute;
+  left: 5px;
+  top: 60px;
+  bottom: 5px;
+  width: auto;
+  background-color: green;
+}
+
+.tag-item-block {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 5px;
+  background-color: yellow;
+}

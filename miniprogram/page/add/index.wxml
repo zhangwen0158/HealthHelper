@@ -1,0 +1,29 @@
+<view class="page-root">
+  <view class="name-block">
+    <input class="input-name" auto-focus placeholder="请输入物品名称" />
+    <view class="input-image"></view>
+
+    <view class="tag-list">
+      <block wx:for-items="{{tagList}}" wx:key="{{item.id}}">
+        <view class="tag-item-block">
+          <view id="{{item.id}}" class="tag-item">{{item.name}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+
+  <view class="index-bd">
+    <view class="kind-list">
+      <block wx:for-items="{{list}}" wx:key="{{item.id}}">
+        <view class="kind-list-item">
+          <view id="{{item.id}}" class="kind-list-item-hd">
+            <view class="kind-list-text">{{item.name}}</view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+  
+</view>
+
+
